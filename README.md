@@ -2,3 +2,5 @@
 
 
 #Historias de usuario - Rol de tendero
+
+#Historias de usuario - Rol de Cliente
