@@ -2,8 +2,18 @@
 
 
 # Historias de usuario - Rol de tendero
+
+## Historia 1:
+Yo como Tendero deseo poder ingresar al aplicativo utilizando un usuario y una contraseña.
+### Criterios de aceptación
+
+1. Muestra un mensaje si el usuario no existe
+2. Muestra error si la contraseña es incorrecta
+3. Deja pasar al tendero a la landing page una vez se verifiquen los datos
+
+
 ## Historia 2:
-Yo como Tendero deseo poder ingresar al aplicativo a una página de landing que me muestre la cantidad de pedidos pendientes y pedidos entregados en un intervalo de tiempo.
+Yo como Tendero, después de realizar el login, debo ser redirigido a una página de landing que me muestre la cantidad de pedidos pendientes y pedidos entregados en un intervalo de tiempo.
 ### Criterios de aceptación
 1. La cantidad de pedidos es correcta con los registrados
 2. La landing page carga los datos requeridos
