@@ -30,7 +30,9 @@
 
 
 # Historias de usuario - Rol Domiciliario
-- Como domicialirio deseo registrarme en aplicación para poder realizar domicilios.
+- Como domiciliairio deseo registrarme en aplicación para poder realizar domicilios.
+- Como domiciliario deseo seleccionar que pedido atendere para llevarle al cliente.
+- COmo domiciliario deseo  cancelar pedido asignado para no quedarle mal al cliente.
 - Como domiciliaro deseo ver el estado de pedidos para no realizar incumplimientos.
 - Como domiciliario deseo comprobar que lo solicitado por el cliente sea lo que voy a entregar para que el cliente quede satisfecho.
 - Como domiciliario deseo poder seleccionar el tipo de pago realizado por el cliente para entregar su pedido.
