@@ -1,7 +1,12 @@
 # Tienda_Ing_Software_1
 
 
-#Historias de usuario - Rol de tendero
+# Historias de usuario - Rol de tendero
+## Historia 2:
+Yo como Tendero deseo poder ingresar al aplicativo a una página de landing que me muestre la cantidad de pedidos pendientes y pedidos entregados en un intervalo de tiempo.
+### Criterios de aceptación
+1. La cantidad de pedidos es correcta con los registrados
+2. La landing page carga los datos requeridos
 
 #Historias de usuario - Rol de Cliente
 1.	Como cliente quiero poder registrarme con un login y contraseña, para poder acceder a la aplicación.
