@@ -18,7 +18,7 @@ Yo como Tendero, después de realizar el login, debo ser redirigido a una págin
 1. La cantidad de pedidos es correcta con los registrados
 2. La landing page carga los datos requeridos
 
-#Historias de usuario - Rol de Cliente
+# Historias de usuario - Rol de Cliente
 1.	Como cliente quiero poder registrarme con un login y contraseña, para poder acceder a la aplicación.
 2.	Como cliente quiero resetear mi contraseña cuando mi login falla, para poder intentar acceder de nuevo.
 3.	Como usuario quiero tener la opción de registrar una cuenta de correo electrónico nueva si no puedo acceder con la actual para poder acceder a la aplicación.
