@@ -18,6 +18,39 @@ Yo como Tendero, después de realizar el login, debo ser redirigido a una págin
 1. La cantidad de pedidos es correcta con los registrados
 2. La landing page carga los datos requeridos
 
+## Historia 3:
+Yo como Tendero, deseo encontrar una opción en el menú que me permita registrar una nueva venta y haga las operaciones necesarias después.
+### Criterios de aceptación
+1. La venta queda registrada correctamente
+2. Los productos vendidos quedan descontados del inventario de manera correcta
+
+## Historia 4:
+Yo como Tendero, después de realizar una venta, deseo poder realizar la devolución del dinero en caso de que se presente cualquier eventualidad y que quede registro de la devolución.
+### Criterios de aceptación
+1. Descuento del dinero correcto en el estado de caja
+2. Guarda el registro de la devolución de la compra exacta
+
+## Historia 5:
+Yo como Tendero, después de recibir un nuevo pedido, deseo ser capaz de poder mover el estado del pedido hacia adelante (Recibido, Preparación, Despacho) con el fin de actualizar el estado del pedido para el cliente
+### Criterios de aceptación
+1. El pedido se actualiza correctamente y únicamente hacia adelante
+2. La información queda disponible para el perfil de cliente
+
+## Historia 6:
+Yo como Tendero, después de poner el pedido en estado de despacho, deseo ser capaz de asignarle un domiciliario que se encuentre disponible para la entrega.
+### Criterios de aceptación
+1. Asignación de domiciliario y actualización del estado del pedido
+2. Queda guardado que ese pedido va a ser llevado por ese domiciliario seleccionado
+
+
+## Historia 7:
+Yo como Tendero, después de realizar el login, debo poder ver una pantalla que me muestre la lista de los pedidos junto con su estado actual, además de esto poder filtrarlos por estado o cliente
+
+### Criterios de aceptación
+1. La lista de pedidos es fiel a la realidad
+2. Se puede filtrar por estado del pedido
+3. Se puede filtrar el pedido por cliente
+
 # Historias de usuario - Rol de Cliente
 1.	Como cliente quiero poder registrarme con un login y contraseña, para poder acceder a la aplicación.
 2.	Como cliente quiero resetear mi contraseña cuando mi login falla, para poder intentar acceder de nuevo.
