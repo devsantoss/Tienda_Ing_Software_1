@@ -88,3 +88,4 @@ Yo como Tendero, después de realizar el login, debo poder ver una pantalla que 
 - Como domiciliario deseo descargar de la aplicación un reporte de los pedidos realizados en el día para entregar cuentas al tendero.
 - Como domiciliario deseo descargar de la aplicación un reporte de los pedidos realizados en el día para realizar cobro.
 - Como domiciliario deseo que me llegue un mensaje por whatsapp para saber que me asignaron un domicilio.
+
