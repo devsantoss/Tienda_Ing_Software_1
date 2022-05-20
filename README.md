@@ -89,3 +89,9 @@ Yo como Tendero, después de realizar el login, debo poder ver una pantalla que 
 - Como domiciliario deseo descargar de la aplicación un reporte de los pedidos realizados en el día para realizar cobro.
 - Como domiciliario deseo que me llegue un mensaje por whatsapp para saber que me asignaron un domicilio.
 
+# Requerimientos no funcionales 
+
+Con la finalidad de un buen funcionamiento el tiempo de respuesta de la aplicación debe ser menor o igual a 5 segundos 
+
+## Criterio de aceptación 
+- La aplicación debe de contar con un tiempo de respuesta de máximo 5 segundos en todas las tareas, ya que de no ser así se considera que la aplicacion no cuenta con el tiempo esperado en respuesta.
