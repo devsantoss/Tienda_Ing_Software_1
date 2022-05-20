@@ -52,21 +52,40 @@ Yo como Tendero, después de realizar el login, debo poder ver una pantalla que 
 3. Se puede filtrar el pedido por cliente
 
 # Historias de usuario - Rol de Cliente
-1.	Como cliente quiero poder registrarme con un login y contraseña, para poder acceder a la aplicación.
+1.	Como cliente quiero registrarme con un login y contraseña, para poder acceder a la aplicación.
 2.	Como cliente quiero resetear mi contraseña cuando mi login falla, para poder intentar acceder de nuevo.
 3.	Como usuario quiero tener la opción de registrar una cuenta de correo electrónico nueva si no puedo acceder con la actual para poder acceder a la aplicación.
 4.	Como cliente quiero buscar artículos por tipo de producto para poder encontrar rápidamente un artículo que se adapte a mis deseos.
 5.	Como cliente quiero adicionar artículos a un carrito de compras para poder tener un registro de los productos que he seleccionado para comprar.
-6.	Como cliente, quiero poder consultar mi carrito de las compras para poder saber lo que he elegido hasta el momento.
-7.	Como cliente, quiero poder actualizar las unidades de cada artículo, para poder comprar varios ejemplares de un producto.
-8.	Como cliente, quiero poder eliminar productos de mi carrito de la compra, para poder comprar los productos más importantes para mí presupuesto.
-9.	Como cliente, quiero usar la ubicación de mi GPS para poder completar la dirección del pedido.
-10.	Como cliente, quiero poder cambiar la dirección de envío de un pedido, para que me pueda llegar a casa o a la oficina.
-11.	Como cliente, quiero que mi información de tipo de pago quede guardada después de la primera vez que la registre, para crear una experiencia de pago más fluida.
-12.	Como comprador, quiero pagar los artículos de mi carrito de la compra, para poder recibirlos en mi casa.
-13.	Como cliente, quiero utilizar Pypal, para poder informar de forma automática mis datos personales y efectuar el pago.
-14.	Como cliente, quiero confirmar y revisar mi carrito de compra, para poder confirmar antes de pagar.
-15.	Como comprador, quiero utilizar una tarjeta de crédito, para poder efectuar el pago. 
+
+### Criterios de aceptación
+La lista de articulos es fiel a la realidad
+Se puede adicionar uno o mas articulos al carrito
+La lista de articulos es actualizada de manera correcta
+
+
+7.	Como cliente, quiero consultar mi carrito de las compras para poder saber lo que he elegido hasta el momento.
+8.	Como cliente, quiero actualizar las unidades de cada artículo, para poder comprar varios ejemplares de un producto.
+9.	Como cliente, quiero eliminar productos de mi carrito de la compra, para poder comprar los productos seleccionados.
+10.	Como cliente, quiero usar la ubicación de mi GPS para poder completar la dirección del pedido.
+11.	Como cliente, quiero cambiar la dirección de envío de un pedido, para que me pueda llegar a casa o a la oficina.
+12.	Como cliente, quiero que mi información de tipo de pago quede guardada después de la primera vez que la registre, para crear una experiencia de pago más fluida.
+13.	Como comprador, quiero pagar los artículos de mi carrito de la compra, para poder recibirlos en mi casa.
+14.	Como cliente, quiero utilizar Pypal, para poder informar de forma automática mis datos personales y efectuar el pago.
+15.	Como cliente, quiero confirmar y revisar mi carrito de compra, para poder confirmar antes de pagar.
+
+### Criterios de aceptación
+Se puede consultar la lista de articulos antes de pagar.
+Se puede aceptar o rechazar la lista de articulos del carrito.
+La lista de productos es fiel a la realidad
+La cantidad de articulos por producto es correcta
+
+# Requerimiento No funcional  del Cliente
+1. La app debe ser capaz de procesar y almacenar cualquier cantidad de articulos rapidamente.
+2. La tasa de errores cometidos por el cliente al manejar la app, deberá ser menor del 1% de las transacciones totales ejecutadas en el sistema.
+3. La aplicación deberá consumir menos de 200 Mb de memoria RAM y no podrá ocupar más de 1 GB de espacio en disco.
+
+
 
 # Historias de usuario - Rol dueño de la tienda
 - Como dueño de la tienda deseo actualizar la información sistema para que el cliente elija con facilidad.
