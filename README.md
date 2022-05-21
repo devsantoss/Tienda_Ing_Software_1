@@ -19,7 +19,7 @@ Yo como Tendero, después de realizar el login, debo ser redirigido a una págin
 2. La landing page carga los datos requeridos
 
 ## Historia 3:
-Yo como Tendero, deseo encontrar una opción en el menú que me permita registrar una nueva venta y haga las operaciones necesarias después.
+Yo como Tendero, deseo registrar una nueva venta.
 ### Criterios de aceptación
 1. La venta queda registrada correctamente
 2. Los productos vendidos quedan descontados del inventario de manera correcta
@@ -62,6 +62,11 @@ Yo como Tendero, después de realizar el login, debo poder ver una pantalla que 
 La lista de articulos es fiel a la realidad
 Se puede adicionar uno o mas articulos al carrito
 La lista de articulos es actualizada de manera correcta
+
+6. Como cliente, quiero visualizar los descuentos en los artículos.
+### Criterios de aceptacion
+Se debe mostrar la lista de articulos con descuento
+se puede adicionar uno o más artículos al carrito
 
 
 7.	Como cliente, quiero consultar mi carrito de las compras para poder saber lo que he elegido hasta el momento.
@@ -160,11 +165,15 @@ Entonces se visualizan los tipos de pago para cancelar el pedido.
 Nombre: usabilidad.rendimiento.
 Escala: milisegundos entre que el domiciliario selecciona el pedido y se muestra la página con el resultado.
 Métrica: promedio de los tiempos de búsqueda de pedido.
-
+#### Criterio de aceptación
+- La aplicación debe de contar con un tiempo de respuesta de máximo 5 segundos en todas las tareas, ya que de no ser así se considera que la aplicacion no cuenta con el tiempo esperado en respuesta. 
 
 # Requerimientos no funcionales 
 
-Con la finalidad de un buen funcionamiento el tiempo de respuesta de la aplicación debe ser menor o igual a 5 segundos 
+* Con la finalidad de un buen funcionamiento el tiempo de respuesta de la aplicación debe ser menor o igual a 5 segundos 
+* Realizar transacciones seguras de los pagos realizados
+* El tratamiento de datos debe ser privados y encriptados.
+* Se desea que la aplicación tenga un buen manejo de concurrencia al momento de solicitar multiples personas un artículo en venta.
 
-## Criterio de aceptación 
-- La aplicación debe de contar con un tiempo de respuesta de máximo 5 segundos en todas las tareas, ya que de no ser así se considera que la aplicacion no cuenta con el tiempo esperado en respuesta.
+ 
+ 
