@@ -103,7 +103,7 @@ La cantidad de articulos por producto es correcta
 - Como domiciliaro deseo ver el estado de pedidos para no realizar incumplimientos.
 - Como domiciliario deseo comprobar que lo solicitado por el cliente este acorde a lo que voy a entregar para que el cliente quede satisfecho.
 - Como domiciliario deseo poder seleccionar el tipo de pago realizado por el cliente para entregar su pedido.
-- Como domiciliario deseo cambiar el estado del pedido para que el tendero sepa que fue entregago.
+- Como domiciliario deseo cambiar el estado del pedido para que el tendero sepa que fue entregado.
 - Como domiciliario deseo descargar de la aplicación un reporte de los pedidos realizados en el día para entregar cuentas al tendero.
 - Como domiciliario deseo descargar de la aplicación un reporte de los pedidos realizados en el día para realizar cobro.
 - Como domiciliario deseo que me llegue un mensaje por whatsapp para saber que me asignaron un domicilio.
