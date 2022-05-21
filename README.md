@@ -111,8 +111,8 @@ La cantidad de articulos por producto es correcta
 - Como domiciliario deseo que me llegue un mensaje por whatsapp para saber que me asignaron un domicilio.
 **
 
-### HU-1
-### Narrativa: 
+HU-1
+Narrativa: 
 
 Como domiciliario 
 Deseo ver el estado de pedidos
