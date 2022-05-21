@@ -65,9 +65,9 @@ La lista de articulos es actualizada de manera correcta
 
 6. Como cliente, quiero visualizar los descuentos en los artículos.
 ### Criterios de aceptacion
-Se debe mostrar la lista de articulos con descuento
-se puede adicionar uno o más artículos al carrito
+Se debe mostrar la lista de articulos con descuento.
 
+Se puede adicionar uno o más artículos al carrito.
 
 7.	Como cliente, quiero consultar mi carrito de las compras para poder saber lo que he elegido hasta el momento.
 8.	Como cliente, quiero actualizar las unidades de cada artículo, para poder comprar varios ejemplares de un producto.
@@ -103,7 +103,7 @@ La cantidad de articulos por producto es correcta
 
 ##  Historias de usuario - Rol Domiciliario
 
-**
+
 - Como domiciliario deseo registrarme en aplicación para poder realizar domicilios.
 - Como domiciliario deseo seleccionar que pedido atendere para llevarle al cliente.
 - Como domiciliario deseo  cancelar pedido asignado para tomar otro pedido que si pueda atender.
