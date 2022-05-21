@@ -111,14 +111,14 @@ La cantidad de articulos por producto es correcta
 - Como domiciliario deseo que me llegue un mensaje por whatsapp para saber que me asignaron un domicilio.
 **
 
-1.
-Narrativa: 
+# HU-1
+# Narrativa: 
 
 Como domiciliario 
 Deseo ver el estado de pedidos
 Para no realizar incumplimientos.
 
-Criterio de Aceptación: 
+# Criterio de Aceptación: 
 
 Dado que Juan es domiciliaro
 Cuando Juan consulte sección de pedidos
