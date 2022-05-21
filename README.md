@@ -59,15 +59,14 @@ Yo como Tendero, después de realizar el login, debo poder ver una pantalla que 
 5.	Como cliente quiero adicionar artículos a un carrito de compras para poder tener un registro de los productos que he seleccionado para comprar.
 
 ### Criterios de aceptación
-La lista de articulos es fiel a la realidad
-Se puede adicionar uno o mas articulos al carrito
-La lista de articulos es actualizada de manera correcta
+1. La lista de articulos es fiel a la realidad
+2. Se puede adicionar uno o mas articulos al carrito
+3. La lista de articulos es actualizada de manera correcta
 
 6. Como cliente, quiero visualizar los descuentos en los artículos.
 ### Criterios de aceptacion
-Se debe mostrar la lista de articulos con descuento.
-
-Se puede adicionar uno o más artículos al carrito.
+1. Se debe mostrar la lista de articulos con descuento.
+2. Se puede adicionar uno o más artículos al carrito.
 
 7.	Como cliente, quiero consultar mi carrito de las compras para poder saber lo que he elegido hasta el momento.
 8.	Como cliente, quiero actualizar las unidades de cada artículo, para poder comprar varios ejemplares de un producto.
@@ -80,15 +79,15 @@ Se puede adicionar uno o más artículos al carrito.
 15.	Como cliente, quiero confirmar y revisar mi carrito de compra, para poder confirmar antes de pagar.
 
 ### Criterios de aceptación
-Se puede consultar la lista de articulos antes de pagar.
-Se puede aceptar o rechazar la lista de articulos del carrito.
-La lista de productos es fiel a la realidad
-La cantidad de articulos por producto es correcta
+1. Se puede consultar la lista de articulos antes de pagar.
+2. Se puede aceptar o rechazar la lista de articulos del carrito.
+3. La lista de productos es fiel a la realidad
+4. La cantidad de articulos por producto es correcta
 
-# Requerimiento No funcional  del Cliente
-1. La app debe ser capaz de procesar y almacenar cualquier cantidad de articulos rapidamente.
-2. La tasa de errores cometidos por el cliente al manejar la app, deberá ser menor del 1% de las transacciones totales ejecutadas en el sistema.
-3. La aplicación deberá consumir menos de 200 Mb de memoria RAM y no podrá ocupar más de 1 GB de espacio en disco.
+
+
+
+
 
 
 
@@ -100,9 +99,7 @@ La cantidad de articulos por producto es correcta
 - Como dueño de la tienda quiero mostrar producto que tengo en mi inventario para mejorar la rotación del producto
 - Como dueño de la tienda quiero retirar productos cuando ya no existan en el inventario para mantener rotación y no se quede ningún producto sin vender.
 
-
 ##  Historias de usuario - Rol Domiciliario
-
 
 - Como domiciliario deseo registrarme en aplicación para poder realizar domicilios.
 - Como domiciliario deseo seleccionar que pedido atendere para llevarle al cliente.
@@ -114,7 +111,7 @@ La cantidad de articulos por producto es correcta
 - Como domiciliario deseo descargar de la aplicación un reporte de los pedidos realizados en el día para entregar cuentas al tendero.
 - Como domiciliario deseo descargar de la aplicación un reporte de los pedidos realizados en el día para realizar cobro.
 - Como domiciliario deseo que me llegue un mensaje por whatsapp para saber que me asignaron un domicilio.
-**
+
 
 HU-1
 Narrativa: 
@@ -160,20 +157,25 @@ Entonces se visualizan los tipos de pago para cancelar el pedido.
 
 
 
-### Requerimiento no funcional:
+# Requerimiento no funcionales:
 
+## Requerimientos no funcionales de la app
+### Requerimiento N°1
 Nombre: usabilidad.rendimiento.
 Escala: milisegundos entre que el domiciliario selecciona el pedido y se muestra la página con el resultado.
 Métrica: promedio de los tiempos de búsqueda de pedido.
 #### Criterio de aceptación
 - La aplicación debe de contar con un tiempo de respuesta de máximo 5 segundos en todas las tareas, ya que de no ser así se considera que la aplicacion no cuenta con el tiempo esperado en respuesta. 
 
-# Requerimientos no funcionales 
 
+### Otros Requerimientos no funcionales
 * Con la finalidad de un buen funcionamiento el tiempo de respuesta de la aplicación debe ser menor o igual a 5 segundos 
 * Realizar transacciones seguras de los pagos realizados
-* El tratamiento de datos debe ser privados y encriptados.
+* El tratamiento de datos debe ser de manera privada y deben estar encriptados.
 * Se desea que la aplicación tenga un buen manejo de concurrencia al momento de solicitar multiples personas un artículo en venta.
 
- 
- 
+## Requerimientos no funcionales del Cliente 
+
+1. La app debe ser capaz de procesar y almacenar cualquier cantidad de articulos rapidamente.
+2. La tasa de errores cometidos por el cliente al manejar la app, deberá ser menor del 1% de las transacciones totales ejecutadas en el sistema.
+3. La aplicación deberá consumir menos de 200 Mb de memoria RAM y no podrá ocupar más de 1 GB de espacio en disco.
