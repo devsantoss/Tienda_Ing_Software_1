@@ -93,11 +93,13 @@ Yo como Tendero, después de realizar el login, debo poder ver una pantalla que 
 ### HU-1
 
     Narrativa: 
+    
     Como domiciliario 
     Deseo ver el estado de pedidos
     Para no realizar incumplimientos.
 
     Criterio de Aceptación: 
+    
     Dado que Juan es domiciliaro
     Cuando Juan consulte sección de pedidos
     Entonces se ve el estado de los pedidos.
@@ -105,14 +107,16 @@ Yo como Tendero, después de realizar el login, debo poder ver una pantalla que 
 ### HU-2
 
     Narrativa:
+    
     Como domiciliario 
     Deseo cambiar el estado del pedido 
     Para que el tendero sepa que fue entregado.
 
     Criterio de Aceptación: 
+    
     Dado que Juan es domiciliaro
     Cuando Juan actualice el estado de pedidos
-Entonces se ven los pedidos entregados y no entregados.
+    Entonces se ven los pedidos entregados y no entregados.
 
 ### HU-3
 
