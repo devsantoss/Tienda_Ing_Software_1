@@ -118,36 +118,36 @@ Como domiciliario
 Deseo ver el estado de pedidos
 Para no realizar incumplimientos.
 
-# Criterio de Aceptación: 
+### Criterio de Aceptación: 
 
 Dado que Juan es domiciliaro
 Cuando Juan consulte sección de pedidos
 Entonces se ve el estado de los pedidos.
 
-2.
+### HU-2
 
-Narrativa:
+### Narrativa:
 
 Como domiciliario 
 Deseo cambiar el estado del pedido 
 Para que el tendero sepa que fue entregado.
 
-Criterio de Aceptación: 
+### Criterio de Aceptación: 
 
 Dado que Juan es domiciliaro
 Cuando Juan actualice el estado de pedidos
 Entonces se ven los pedidos entregados y no entregados.
 
 
-3.
+### HU-3
 
-Narrativa:
+### Narrativa:
 
 Como domiciliario 
 Deseo poder seleccionar el tipo de pago realizado por el cliente 
 Para entregar su pedido.
 
-Criterio de Aceptación: 
+### Criterio de Aceptación: 
 
 Dado que Juan es domiciliaro
 Cuando Juan seleccione tipo de pago
@@ -155,8 +155,7 @@ Entonces se visualizan los tipos de pago para cancelar el pedido.
 
 
 
-Requerimiento no funcional:
-
+### Requerimiento no funcional:
 
 Nombre: usabilidad.rendimiento.
 Escala: milisegundos entre que el domiciliario selecciona el pedido y se muestra la página con el resultado.
