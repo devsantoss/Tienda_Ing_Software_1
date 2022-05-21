@@ -96,7 +96,9 @@ La cantidad de articulos por producto es correcta
 - Como dueño de la tienda quiero retirar productos cuando ya no existan en el inventario para mantener rotación y no se quede ningún producto sin vender.
 
 
-# Historias de usuario - Rol Domiciliario
+##  Historias de usuario - Rol Domiciliario
+
+**
 - Como domiciliario deseo registrarme en aplicación para poder realizar domicilios.
 - Como domiciliario deseo seleccionar que pedido atendere para llevarle al cliente.
 - Como domiciliario deseo  cancelar pedido asignado para tomar otro pedido que si pueda atender.
@@ -107,6 +109,59 @@ La cantidad de articulos por producto es correcta
 - Como domiciliario deseo descargar de la aplicación un reporte de los pedidos realizados en el día para entregar cuentas al tendero.
 - Como domiciliario deseo descargar de la aplicación un reporte de los pedidos realizados en el día para realizar cobro.
 - Como domiciliario deseo que me llegue un mensaje por whatsapp para saber que me asignaron un domicilio.
+**
+
+1.
+Narrativa: 
+
+Como domiciliario 
+Deseo ver el estado de pedidos
+Para no realizar incumplimientos.
+
+Criterio de Aceptación: 
+
+Dado que Juan es domiciliaro
+Cuando Juan consulte sección de pedidos
+Entonces se ve el estado de los pedidos.
+
+2.
+
+Narrativa:
+
+Como domiciliario 
+Deseo cambiar el estado del pedido 
+Para que el tendero sepa que fue entregado.
+
+Criterio de Aceptación: 
+
+Dado que Juan es domiciliaro
+Cuando Juan actualice el estado de pedidos
+Entonces se ven los pedidos entregados y no entregados.
+
+
+3.
+
+Narrativa:
+
+Como domiciliario 
+Deseo poder seleccionar el tipo de pago realizado por el cliente 
+Para entregar su pedido.
+
+Criterio de Aceptación: 
+
+Dado que Juan es domiciliaro
+Cuando Juan seleccione tipo de pago
+Entonces se visualizan los tipos de pago para cancelar el pedido.
+
+
+
+Requerimiento no funcional:
+
+
+Nombre: usabilidad.rendimiento.
+Escala: milisegundos entre que el domiciliario selecciona el pedido y se muestra la página con el resultado.
+Métrica: promedio de los tiempos de búsqueda de pedido.
+
 
 # Requerimientos no funcionales 
 
