@@ -86,8 +86,9 @@ Yo como Tendero, después de realizar el login, debo poder ver una pantalla que 
 - Como dueño de la tienda quiero responder al pedido que realiza el cliente según la cantidad de productos que adquiera para mejorar las ventas.
 - Como dueño de la tienda quiero sugerir productos similares a los que el cliente pida información para aumentar las ventas. 
 - Como dueño de la tienda quiero capturar los datos del cliente para ofrecerle otros productos y servicios.
-- Como dueño de la tienda quiero mostrar producto que tengo en mi inventario para mejorar la rotación del producto
+- Como dueño de la tienda quiero mostrar producto que tengo en mi inventario para mejorar la rotación del producto https://github.com/devsantoss/Tienda_Ing_Software_1/blob/main/producto.py#L22
 - Como dueño de la tienda quiero retirar productos cuando ya no existan en el inventario para mantener rotación y no se quede ningún producto sin vender.
+https://github.com/devsantoss/Tienda_Ing_Software_1/blob/main/producto.py#L35
 
 ##  Historias de usuario - Rol Domiciliario
 ### HU-1
