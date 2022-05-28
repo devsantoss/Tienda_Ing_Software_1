@@ -1,6 +1,6 @@
 version: "3.9"
 
 services:
-  sonia:
-    build: sonia/.
+  basededatos:
+    build: .
     ports: "2000:5000"
