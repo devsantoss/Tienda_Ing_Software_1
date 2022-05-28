@@ -1,6 +1,6 @@
 FROM python:3.10.4-slim-bullseye
 
-EXPOSE 3000
+EXPOSE 5000
 
 WORKDIR /app
 
