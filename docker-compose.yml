@@ -3,4 +3,9 @@ version: "3.9"
 services:
   basededatos:
     build: .
-    ports: "2000:5000"
+    ports:
+      - "2000:5000"
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./db/:/root/db
