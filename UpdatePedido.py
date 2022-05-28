@@ -22,7 +22,7 @@ def update_pedido(id):
         id_estad = request.form['id_estad']
         cur = mysql.connection.cursor()
         cur.execute("""
-            UPDATE contacts
+            UPDATE Pedido
             SET id_estad = %s
             WHERE id = %s
         """, (id_estad, id))
