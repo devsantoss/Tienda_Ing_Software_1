@@ -9,3 +9,14 @@ services:
     tty: true
     volumes:
       - ./db/:/root/db
+  
+  sebastian:
+    build: 
+      context: /Sebastian
+      dockerfile: /Sebastian/Dockerfile
+    ports:
+      - "3000:5000"
+    volumes:
+      - ../:/app
+      - ./db/:/my/sqlite/path/
+    
