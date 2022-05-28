@@ -1,4 +1,4 @@
-CREATE TABLE "Usuario" (
+CREATE TABLE IF NOT EXISTS "Usuario" (
 	"id_usuario"	INTEGER NOT NULL,
 	"nombre"	TEXT NOT NULL,
 	"apellido"	TEXT NOT NULL,
@@ -9,26 +9,26 @@ CREATE TABLE "Usuario" (
 	PRIMARY KEY("id_usuario" AUTOINCREMENT)
 );
 
-CREATE TABLE "Estado_Pedido" (
+CREATE TABLE IF NOT EXISTS "Estado_Pedido" (
 	"id_estado"	INTEGER NOT NULL,
 	"descripcion"	TEXT,
 	PRIMARY KEY("id_estado" AUTOINCREMENT)
 );
 
-CREATE TABLE "Articulos" (
+CREATE TABLE IF NOT EXISTS "Articulos" (
 	"id_articulo"	INTEGER NOT NULL,
 	"descripcion"	TEXT NOT NULL,
 	"descuento"	REAL NOT NULL,
 	PRIMARY KEY("id_articulo" AUTOINCREMENT)
 );
 
-CREATE TABLE "Tipo_Pago" (
+CREATE TABLE IF NOT EXISTS "Tipo_Pago" (
 	"id_tipo_pago"	INTEGER NOT NULL,
 	"descripcion"	TEXT NOT NULL,
 	PRIMARY KEY("id_tipo_pago" AUTOINCREMENT)
 );
 
-CREATE TABLE "Pedido" (
+CREATE TABLE IF NOT EXISTS "Pedido" (
 	"id_pedido"	INTEGER NOT NULL,
 	"cliente"	INTEGER NOT NULL,
 	"usuario_atiende"	INTEGER NOT NULL,
@@ -41,7 +41,7 @@ CREATE TABLE "Pedido" (
 	FOREIGN KEY (tipo_pago) REFERENCES Tipo_Pago(id_tipo_pago)
 );
 
-CREATE TABLE "Articulos_Pedido" (
+CREATE TABLE IF NOT EXISTS "Articulos_Pedido" (
 	"id_pedido"	INTEGER NOT NULL,
 	"id_articulo"	INTEGER NOT NULL,
 	FOREIGN KEY (id_pedido) REFERENCES Pedido(id_pedido),
