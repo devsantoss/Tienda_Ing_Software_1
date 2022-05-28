@@ -4,7 +4,7 @@ import sqlite3
 app = Flask(__name__)
 
 #Creacion db
-connection_object = sqlite3.connect(".db/tienda_database.db")
+connection_object = sqlite3.connect("my/sqlite/path/tienda_database.db")
 #Cursor de conexion
 cursor_object = connection_object.cursor()
 

@@ -13,10 +13,9 @@ services:
   sebastian:
     build: 
       context: /Sebastian
-      dockerfile: /Sebastian/Dockerfile
+      dockerfile: /Dockerfile
     ports:
       - "3000:5000"
-    volumes:
-      - ../:/app
+    volumes:      
       - ./db/:/my/sqlite/path/
     
