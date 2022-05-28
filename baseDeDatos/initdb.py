@@ -1,7 +1,7 @@
 import sqlite3
 
 #Creacion db
-connection_object = sqlite3.connect("tienda_database.db")
+connection_object = sqlite3.connect("../.db/tienda_database.db")
 #Cursor de conexion
 cursor_object = connection_object.cursor()
 #lectura del sql
