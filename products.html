@@ -41,7 +41,7 @@
     {% for key, val in session['cart_item'].items() %}
         {% set quantity = session['cart_item'][key]['quantity'] %}
         {% set price = session['cart_item'][key]['price'] %}
-        {% set discount = session['cart_item'][key]['discount'] %}
+        {% set descuento = session['cart_item'][key]['descuento'] %}
         {% set item_price = session['cart_item'][key]['total_price'] %}
                     <tr>
                         <td class="col-sm-8 col-md-6">
@@ -57,11 +57,11 @@
                         <input type="email" class="form-control" value="{{ quantity }}">
                         </td>
                         <td class="col-sm-1 col-md-1 text-center"><strong>${{ price }} </strong></td>
-                        <td class="col-sm-1 col-md-1 text-center"><strong>${{ discount }} </strong></td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>${{ descuento }} </strong></td>
                         <td class="col-sm-1 col-md-1 text-center"><strong>${{ item_price }} </strong></td>
 
                         <td class="col-sm-1 col-md-1">
-                        <a href="{{ url_for('.delete_product', code=session['cart_item'][key]['code']) }}" class="btn btn-danger">
+                        <a href="{{ url_for('.delete_product', id_articulo=session['cart_item'][key]['id_articulo']) }}" class="btn btn-danger">
                             <span class="glyphicon glyphicon-remove"></span>Eliminar
                         </a></td>
                     </tr>
@@ -104,7 +104,7 @@
                 <div class="row">
     {% for product in products %}
                     <div class="col-sm-6 col-lg-3">
-      <form method="post" action="/add">
+      <form method="post" action="/carrito/add">
                         <div class="single-publication">
                             <figure style="width:263px;">
                                 <a href="#">
@@ -130,11 +130,11 @@
 
                                  <h4 class="price">Precio:$ {{ product.price }}</h4>
 
-                                 <h5 class="discount">Descuento:$ {{ product.discount }}</h5>
+                                 <h5 class="discount">Descuento:$ {{ product.descuento }}</h5>
                             </div>
 
                             <div class="add-to-cart">
-        <input type="hidden" name="code" value="{{ product.code }}"/>
+        <input type="hidden" name="id_articulo" value="{{ product.id_articulo }}"/>
         <input type="text" class="product-quantity" name="quantity" value="1" size="2" />
         <input type="submit" value="Add to Cart" class="default-btn" />
                             </div>
