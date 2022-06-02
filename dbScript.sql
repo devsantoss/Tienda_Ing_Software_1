@@ -19,6 +19,11 @@ CREATE TABLE IF NOT EXISTS "Articulos" (
 	"id_articulo"	INTEGER NOT NULL,
 	"descripcion"	TEXT NOT NULL,
 	"descuento"	REAL NOT NULL,
+	"price" REAL NOT NULL,
+	"image" TEXT NULL,
+	"quantity" TEXT NOT NULL,
+	"name" TEXT NOT NULL,
+	"category" TEXT NOT NULL
 	PRIMARY KEY("id_articulo" AUTOINCREMENT)
 );
 
