@@ -14,6 +14,13 @@ services:
       dockerfile: /Dockerfile 
     volumes:      
       - "db:/db"
+
+  reinaldo:
+    build: 
+      context: /Reinaldo
+      dockerfile: /Dockerfile 
+    volumes:      
+      - "db:/db"
     
 
   api-gateway:
