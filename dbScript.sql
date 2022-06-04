@@ -15,15 +15,15 @@ CREATE TABLE IF NOT EXISTS "Estado_Pedido" (
 	PRIMARY KEY("id_estado" AUTOINCREMENT)
 );
 
-CREATE TABLE IF NOT EXISTS "Articulos" (
-	"id_articulo"	INTEGER NOT NULL,
-	"descripcion"	TEXT NOT NULL,
+CREATE TABLE IF NOT EXISTS "Articulo" (
+	"id_articulo" INTEGER NOT NULL,
+	"descripcion" TEXT NOT NULL,
 	"descuento"	REAL NOT NULL,
 	"price" REAL NOT NULL,
 	"image" TEXT NULL,
 	"quantity" TEXT NOT NULL,
 	"name" TEXT NOT NULL,
-	"category" TEXT NOT NULL
+	"category" TEXT NOT NULL,
 	PRIMARY KEY("id_articulo" AUTOINCREMENT)
 );
 

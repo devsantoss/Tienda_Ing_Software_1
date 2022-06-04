@@ -1,12 +1,11 @@
 from flask import Flask
-import sqlite3
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-#Creacion db
-connection_object = sqlite3.connect("db/tienda_database.db")
-#Cursor de conexion
-cursor_object = connection_object.cursor()
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db/tienda_database.db'
+app.config['SECRET_KEY'] = "123"
+db = SQLAlchemy(app)
 
 @app.route('/pedidos', methods=["PUT"])
 def modificarPedido():

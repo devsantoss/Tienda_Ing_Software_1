@@ -3,7 +3,7 @@ from flask.helpers import url_for
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///productos.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db/tienda_database.db'
 app.config['SECRET_KEY'] = "123"
 
 db = SQLAlchemy(app)

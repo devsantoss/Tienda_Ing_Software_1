@@ -1,40 +1,41 @@
 version: "3.9"
 
 services:
+  
   basededatos:
     build: .    
     stdin_open: true
     tty: true
     volumes:
-      - "db:/db"
+      - db:/app/db
   
   sebastian:
     build: 
       context: /Sebastian
       dockerfile: /Dockerfile 
     volumes:      
-      - "db:/db"
+      - db:/app/db
 
   reinaldo:
     build: 
       context: /Reinaldo
       dockerfile: /Dockerfile 
     volumes:      
-      - "db:/db"
+      - db:/app/db
 
   helena:
     build: 
       context: /Helena
       dockerfile: /Dockerfile 
     volumes:      
-      - "db:/db"
+      - db:/app/db
 
   sonia:
     build: 
       context: /Sonia
       dockerfile: /Dockerfile 
     volumes:      
-      - "db:/db"
+      - db:/app/db
     
 
   api-gateway:
