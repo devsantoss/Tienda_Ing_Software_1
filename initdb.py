@@ -10,5 +10,3 @@ sql_as_string = sql_file.read()
 #Ejecucion del script
 cursor_object.executescript(sql_as_string)
 print("Script ejecutado correctamente")
-while(1):
-    print("Ejecutando")
