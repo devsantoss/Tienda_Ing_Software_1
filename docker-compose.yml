@@ -21,6 +21,20 @@ services:
       dockerfile: /Dockerfile 
     volumes:      
       - "db:/db"
+
+  helena:
+    build: 
+      context: /Helena
+      dockerfile: /Dockerfile 
+    volumes:      
+      - "db:/db"
+
+  sonia:
+    build: 
+      context: /Sonia
+      dockerfile: /Dockerfile 
+    volumes:      
+      - "db:/db"
     
 
   api-gateway:
@@ -30,6 +44,9 @@ services:
     command: [nginx-debug, '-g', 'daemon off;']
     links:
       - sebastian
+      - reinaldo
+      - helena
+      - sonia
     ports:
       - "5000:80"
 volumes:
