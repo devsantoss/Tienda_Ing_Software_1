@@ -11,28 +11,28 @@ services:
   
   sebastian:
     build: 
-      context: /Sebastian
+      context: ./HU_3_HU_4
       dockerfile: /Dockerfile 
     volumes:      
       - db:/app/db
 
   reinaldo:
     build: 
-      context: /Reinaldo
+      context: ./HU_1_HU_2
       dockerfile: /Dockerfile 
     volumes:      
       - db:/app/db
 
   helena:
     build: 
-      context: /Helena
+      context: ./HU_6_HU_7
       dockerfile: /Dockerfile 
     volumes:      
       - db:/app/db
 
   sonia:
     build: 
-      context: /Sonia
+      context: ./HU_8_HU_9
       dockerfile: /Dockerfile 
     volumes:      
       - db:/app/db
@@ -49,6 +49,6 @@ services:
       - helena
       - sonia
     ports:
-      - "5000:80"
+      - "4000:80"
 volumes:
   db:
