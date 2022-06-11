@@ -1,31 +1,37 @@
-from flask import Flask, render_template, request, redirect, url_for, flash
-from flask_mysqldb import MySQL
+# UpdatePedido.py
+from flask import Flask, session, render_template, request, redirect, url_for
+#import psycopg2
+#import psycopg2.extras
+import sqlite3
 
 # initializations
 app = Flask(__name__)
 
+app.secret_key = "cairocoders"
+
+#Creacion db
+connection_object = sqlite3.connect("db/tienda_database.db")
+#Cursor de conexion
+cursor_object = connection_object.cursor()
 # Mysql Connection
-app.config['MYSQL_HOST'] = 'localhost' 
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'password'
-app.config['MYSQL_DB'] = 'flaskcrud'
-mysql = MySQL(app)
+#DB_HOST = "localhost"
+#DB_NAME = "sampledb"
+#DB_USER = "postgres"
+#DB_PASS = "8820"
 
-# settings
-app.secret_key = "mysecretkey"
+#conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST)
 
-# route
 
 @app.route('/update/<id>', methods=['POST'])
 def update_pedido(id):
     if request.method == 'POST':
-        id_estad = request.form['id_estad']
+        estado = request.form['estado']
         cur = mysql.connection.cursor()
         cur.execute("""
             UPDATE Pedido
-            SET id_estad = %s
-            WHERE id = %s
-        """, (id_estad, id))
+            SET estado = %s
+            WHERE id_pedido = %s
+        """, (estado, id))
         flash('Pedido Actualizado Correctamente')
         mysql.connection.commit()
         return redirect(url_for('Index'))
