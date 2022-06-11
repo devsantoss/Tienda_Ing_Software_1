@@ -34,7 +34,7 @@ def update_pedido(id):
         """, (estado, id))
         flash('Pedido Actualizado Correctamente')
         mysql.connection.commit()
-        return redirect(url_for('.Index'))
+        return redirect(url_for('Index'))
 
 # starting the app
 if __name__ == "__main__":
