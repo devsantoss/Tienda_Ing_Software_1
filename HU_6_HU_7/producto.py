@@ -19,7 +19,7 @@ class producto(db.Model):
         self.producto_cantidad = datos["cantidad"]
         self.producto_valor = datos["valor"]
 
-@app.route("/") # listar productos
+@app.route("/productos") # listar productos
 def principal():
     data = producto.query.all()
     diccionario_productos = {}

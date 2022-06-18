@@ -36,19 +36,26 @@ services:
       dockerfile: /Dockerfile 
     volumes:      
       - db:/app/db
-    
+  david:
+    build:
+      context: ./HU10_HU11
+      dockerfile: ./Dockerfile
+    volumes:
+      - db:/app/db
 
   api-gateway:
     image: nginx:alpine
     volumes:
       - "./nginx.conf:/etc/nginx/nginx.conf:ro"
     command: [nginx-debug, '-g', 'daemon off;']
-    links:
+    depends_on:
       - sebastian
       - reinaldo
       - helena
       - sonia
+      - david
     ports:
       - "4000:80"
+    
 volumes:
   db:
