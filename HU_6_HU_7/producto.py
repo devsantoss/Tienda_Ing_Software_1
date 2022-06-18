@@ -38,3 +38,7 @@ def eliminar(id):
     db.session.delete(p)
     db.session.commit()
     return redirect(url_for('principal'))
+
+# starting the app
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=3001, debug=True)
